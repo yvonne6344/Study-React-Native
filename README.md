@@ -16,54 +16,64 @@
 建置專案前，必須先安裝：
 * [Homebrew](http://brew.sh/)
 * Node
-```bash
-brew install node
-```
+  ```bash
+  brew install node
+  ```
 * [Watchman](https://facebook.github.io/watchman)
-```bash
-brew install watchman
-```
+  ```bash
+  brew install watchman
+  ```
 * React Native CLI
-```bash
-npm install -g react-native-cli
-```
+  ```bash
+  npm install -g react-native-cli
+  ```
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
 ## 建立＆執行專案
 建立名稱為「AwesomeProject」的專案
-```bash
-react-native init AwesomeProject
-```
+  ```bash
+  react-native init AwesomeProject
+  ```
 
 進入「AwesomeProject」專案資料夾
-```bash
-cd AwesomeProject
-```
+  ```bash
+  cd AwesomeProject
+  ```
 
 使用 iOS 模擬器啟動專案
-```bash
-react-native run-ios
-```
-<a><img src="https://facebook.github.io/react-native/img/iOSSuccess.png" title="source: imgur.com" width="250" height="400" /></a>
+  ```bash
+  react-native run-ios
+  ```
+  <a><img src="https://facebook.github.io/react-native/img/iOSSuccess.png" title="source: imgur.com" width="250" height="400" /></a>
 
 ## 使用第三方套件
-舉例：使用 [victory-native](https://github.com/FormidableLabs/victory-native) 這個圖表套件。
-
-相關網站是 [victory](http://formidable.com/open-source/victory)，為 React 圖表套件。
+舉例：使用 [victory-native](https://github.com/FormidableLabs/victory-native) 這個圖表套件。(相關網站是 [victory](http://formidable.com/open-source/victory)，為 React 圖表套件。)
 
 ### 如何使用？
 * 安裝 victory-native
-```bash
-$ npm install victory-native --save
-```
+  ```bash
+  $ npm install victory-native --save
+  ```
 * 安裝 react-native-svg
-```bash
-$ npm install react-native-svg --save
-```
+  ```bash
+  $ npm install react-native-svg --save
+  ```
+* 最好再 npm install 一次
+  ```bash
+  $ npm install
+  ```
 * 連結 react-native-svg
-```bash
-$ react-native link react-native-svg
-```
+  ```bash
+  $ react-native link react-native-svg
+  ```
+  <a href="https://imgur.com/QDe6nZj"><img src="https://i.imgur.com/QDe6nZj.png" title="source: imgur.com" width="700" height="130" /></a>
+
+* 至 ios 資料夾，開啟專案，手動加入資源庫
+
+  <a href="https://imgur.com/ruI31Id"><img src="https://i.imgur.com/ruI31Id.png" title="source: imgur.com" width="300" height="150" /></a>
+
+  <a href="https://imgur.com/LiVbnAN"><img src="https://i.imgur.com/LiVbnAN.png" title="source: imgur.com" /></a>
+
 
 ## 注意可能會遇到的坑
 
