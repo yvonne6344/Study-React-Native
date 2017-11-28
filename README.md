@@ -51,7 +51,7 @@ react-native run-ios
 
 相關網站是 [victory](http://formidable.com/open-source/victory)，為 React 圖表套件。
 
-# 如何使用？
+### 如何使用？
 * 安裝 victory-native
 ```bash
 $ npm install victory-native --save
