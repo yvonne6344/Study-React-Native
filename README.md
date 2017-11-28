@@ -10,6 +10,7 @@
 
 [React 官網](https://reactjs.org/)
 
+
 ## 安裝
 開發平台：macOS、目標平台：iOS
 
@@ -29,6 +30,7 @@
   ```
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
+
 ## 建立＆執行專案
 建立名稱為「AwesomeProject」的專案
   ```bash
@@ -45,6 +47,7 @@
   react-native run-ios
   ```
   <a><img src="https://facebook.github.io/react-native/img/iOSSuccess.png" title="source: imgur.com" width="250" height="400" /></a>
+
 
 ## 使用第三方套件
 舉例：使用 [victory-native](https://github.com/FormidableLabs/victory-native) 這個圖表套件。(相關網站是 [victory](http://formidable.com/open-source/victory)，為 React 圖表套件。)
@@ -66,13 +69,19 @@
   ```bash
   $ react-native link react-native-svg
   ```
-  <a href="https://imgur.com/QDe6nZj"><img src="https://i.imgur.com/QDe6nZj.png" title="source: imgur.com" width="700" height="130" /></a>
+  <a><img src="https://i.imgur.com/QDe6nZj.png" title="source: imgur.com" width="700" height="130" /></a>
 
-* 至 ios 資料夾，開啟專案，手動加入資源庫
+* 執行後，報錯：No component found for view with name "RNSVGPath"。
 
-  <a href="https://imgur.com/ruI31Id"><img src="https://i.imgur.com/ruI31Id.png" title="source: imgur.com" width="300" height="150" /></a>
+  <a><img src="https://i.imgur.com/RrlqJz6.png" title="source: imgur.com" width="250" height="500" /></a>
 
-  <a href="https://imgur.com/LiVbnAN"><img src="https://i.imgur.com/LiVbnAN.png" title="source: imgur.com" /></a>
+  解法：至 ios 資料夾，開啟專案，手動加入資源庫 libRNSVG.a (房屋）＆ 刪除 libRNSVG.a、libRNSVG-tvOS.a（柱狀）
+
+  <a><img src="https://i.imgur.com/ruI31Id.png" title="source: imgur.com" width="300" height="150" /></a>
+
+  <a><img src="https://i.imgur.com/LiVbnAN.png" title="source: imgur.com" /></a>
+  
+  <a><img src="https://i.imgur.com/yVfSUY2.png" title="source: imgur.com" /></a>
 
 
 ## 注意可能會遇到的坑
