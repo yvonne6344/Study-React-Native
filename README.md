@@ -92,7 +92,10 @@
 
 【情況二】終端機 Run 完，但 iOS 模擬器未成功啟動（正常情況會自動跳出模擬器視窗）
 
-解法：砍掉 Debug-iphonesimulator 資料夾，再重新啟動一次（當模擬器啟動失敗時，可以用這招試試）
+解法：砍掉 build 資料夾，再重新啟動一次（當模擬器啟動失敗時，可以用這招試試）
   
-<a href="https://imgur.com/HO3Vr7X"><img src="https://i.imgur.com/HO3Vr7X.png" title="source: imgur.com" /></a>
+<a><img src="https://i.imgur.com/jFHYuoe.png" title="source: imgur.com" width="350" height="150" /></a>
 
+【情況三】指終端機尚未執行完，模擬器卻已開始執行。只要等終端機跑完，模擬器再重 Run 就可以了 (command+R)。
+
+<a><img src="https://i.imgur.com/P5GBcLf.png" title="source: imgur.com" width="350" height="150"/></a>
